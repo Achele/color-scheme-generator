@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <!-- <label for="color"></label> -->
+        <input type="color" id="color-picker" />
+        <div class="select">
+          <select name="color-scheme" id="select-scheme">
+            <option value="monochrome">Monochrome</option>
+            <option value="monochrome-dark">Monochrome Dark</option>
+            <option value="monochrome-light">Monochrome Light</option>
+            <option value="analogic">Analogic</option>
+            <option value="complement">Complement</option>
+            <option value="analogic-complement">Analogic Complement</option>
+            <option value="triad">Triad</option>
+            <option value="quad">Quad</option>
+          </select>
+        </div>
+        <button id="color-btn">Get Color Scheme</button>
+      </header>
+      <section class="color-container">
+        <div class="color-stack">
+          <a class="color-panel" id="fill0"></a>
+          <a class="color-name" id="name0"></a>
+        </div>
+        <div class="color-stack">
+          <a class="color-panel" id="fill1"></a>
+          <a class="color-name" id="name1"></a>
+        </div>
+        <div class="color-stack">
+          <a class="color-panel" id="fill2"></a>
+          <a class="color-name" id="name2"></a>
+        </div>
+        <div class="color-stack">
+          <a class="color-panel" id="fill3"></a>
+          <a class="color-name" id="name3"></a>
+        </div>
+        <div class="color-stack">
+          <a class="color-panel" id="fill4"></a>
+          <a class="color-name" id="name4"></a>
+        </div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
